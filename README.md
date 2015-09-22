@@ -1,15 +1,9 @@
 # twilightlegion
 Twilight Legion for TI-89 (Titanium) calculators, written in C, 68k Assembly
 
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
-                  	                  TWILIGHT LEGION
-                                    MICHAEL HERGENRADER
-                                        VERSION: 1.9
-                           COPYRIGHT � 2005-2010 MICHAEL HERGENRADER
-
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
+TWILIGHT LEGION
+MICHAEL HERGENRADER
+VERSION: 1.9
 
 Contents:
 1.  Introduction, Requirements, and Features
