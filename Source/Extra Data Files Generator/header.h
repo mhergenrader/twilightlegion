@@ -1,6 +1,10 @@
 // Twilight Legion Extra Data Installer
 // Header File - header.h
 // Michael Hergenrader
+// Compiled with TIGCC 0.96 Beta 8
+// Please see README for license/disclaimer information. In short, please feel free to use code you see here,
+// and any credit to me would be greatly appreciated! :-)
+// Copyright 2005-2010 Michael Hergenrader
 
 // This defines all constants and data structures that are stored in the external data files (sprites, strings, constants).
 // The main file initializes the data and writes them to an external data file. Due to the large amount of data for the game 
