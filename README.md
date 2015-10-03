@@ -3,7 +3,7 @@ Arcade fighting game for TI-89 (Titanium) calculators, written in C, 68k Assembl
 Michael Hergenrader
 
 <h2>Contents</h2>
-<ul>
+<ol>
 <li>Introduction, Requirements, and Features</li>
 <li>Controls (ingame)</li>
 <li>What to send to your calculator/list of files (why the game is archived memory-intensive)</li>
@@ -17,9 +17,9 @@ Michael Hergenrader
 <li>License/How to report bugs/Other Languages</li>
 <li>Game Credits</li>
 <li>Planned Features for later updates</li>
-</ul>
+</ol>
 
-<h2>1. Introduction, Requirements, and Features</h2>
+<h2>Introduction, Requirements, and Features</h2>
 
 Introduction:
 24 characters from across various games and platforms have been chosen to take part in a 
@@ -33,10 +33,11 @@ so you had better be ready for a scrap!
 
 <h3>Requirements to run</h3>
 
-Calculator: TI-89 or TI-89 Titanium (92+ and Voyage 200 porting hopefully to come soon)
-Emulator: I prefer TiEmu, but it doesn't matter; NOTE: the game speed is much faster on these!
-Minimum AMS Version: 1.01
-(this game is entirely _nostub; no custom OS required)
+<ul>
+<li>Calculator: TI-89 or TI-89 Titanium (92+ and Voyage 200 porting hopefully to come soon)</li>
+<li>Emulator: I prefer TiEmu, but it doesn't matter; NOTE: the game speed is much faster on these!</li>
+<li>Minimum AMS Version: 1.01 (this game is entirely _nostub; no custom OS required)</li>
+</ul>
 
 If you see any dialog screen accompanied by a message, such as the following, please follow these
 instructions:
@@ -75,23 +76,22 @@ If not, you should see the profile loading screen, so play and enjoy!
 - 10 different invitational tournaments to unlock, or create your own custom tournaments
 - 31 complete unlockable episodes, with increasing difficulties (just try and beat #31)
 - Familiar boss battles from Super Smash Bros. :-) (*spoiler at very bottom of file)
-- timed matches anywhere from 1 to 90 minutes in duration (90 for the hardcore gamers ;-) )
-- stock matches anywhere from 1 to 5 lives
-- sudden death for timed matches if the game deems necessary
-- up to 5 different saved user profiles to load and view
-- save your arena battle and tournament and settings into your profile quickly - allows 1 of each per profile!
+- Timed matches anywhere from 1 to 90 minutes in duration (90 for the hardcore gamers ;-) )
+- Stock matches anywhere from 1 to 5 lives
+- Sudden death for timed matches if the game deems necessary
+- Up to 5 different saved user profiles to load and view
+- Save your arena battle and tournament and settings into your profile quickly - allows 1 of each per profile!
 - Arena mode: freestyle fight based on the settings, choose anywhere from 2-4 players to fight
-- Story mode: 10 consecutive, always different, random stages, with 2 Race to the finish
-  minigames, a metal character fight, and, of course, the final battle (boss battle)
-- complete trophy gallery with 5 pages to view 8 trophies
-- "teacher" key to save your own custom battles and then instantly reload them on startup! (press ON)
+- Story mode: 10 consecutive, always different, random stages, with 2 Race to the finish minigames, a metal character fight, and, of course, the final battle (boss battle)
+- Complete trophy gallery with 5 pages to view 8 trophies
+- "Teacher" key to save your own custom battles and then instantly reload them on startup! (press ON)
 - 4 different AI difficulties (Classic = easiest, Admiral, Premiere, Elite = hardest)
-- crowd pressure enablement - fight like in a stadium with the crowd in the back with/against you
+- Crowd pressure enablement - fight like in a stadium with the crowd in the back with/against you
 - 1 complete moving level enabled to put a twist into your battles (hopefully, more to come later)
 - 26 different items that fall from the sky, including boosts, metal, invisibility, and projectiles
 - 16 different types of terrain blocks inside levels (hopefully, more to come, as some were removed)
-- works on hardware versions 1, 2, and 3 - no patch required
-- full scrolling credits screen
+- Works on hardware versions 1, 2, and 3 - no patch required
+- Full scrolling credits screen
 
 <h3>Planned for later</h3>
 - Finishing linked battles (still in testing)
@@ -99,21 +99,19 @@ If not, you should see the profile loading screen, so play and enjoy!
 
 <h2>Controls (ingame)</h2>
 
-<2nd>          smash attacks/pick up items
-<DIAMOND>      special attacks for your player (stand still, fire projectile, or missile attack)
-<SHIFT>        make player jump (up to two jumps - second is UP)
-<ALPHA+ARROW>  dodge past enemy
-<F1>           grab your enemy (+arrow key while grabbing = throw enemy)
-<L,R ARROWS>   move the player/manuever attack direction/switch direction
-<UP ARROW>     climb ladders (there are ladders, believe it or not, but only one looks like one),
-               double jump, taunt enemies (when not doing anything)
-<DOWN ARROW>   climb down ladders/crouch/sky attack if falling in the air (pretty effective attack)
-<+>            increase the contrast
-<->            decrease the contrast
-<F3>           immediately pauses and exits the game - creates a copy of your battle inside your
-               profile - this key is only allowed for Arena Mode, other pauses consist of <ON>
-<ESC>          exit the battle (not allowed in a tournament battle)
-<ON>           pause the game (turns off the calculator screen, pauses the game) - useful for any mode
+- <2nd>: Smash attacks/pick up items
+- <DIAMOND>: Special attacks for your player (stand still, fire projectile, or missile attack)
+- <SHIFT>: Make player jump (up to two jumps - second is UP)
+- <ALPHA+ARROW>: Dodge past enemy
+- <F1>: Grab your enemy (+arrow key while grabbing = throw enemy)
+- <L,R ARROWS>: Move the player/manuever attack direction/switch direction
+- <UP ARROW>: Climb ladders (there are ladders, believe it or not, but only one looks like one), double jump, taunt enemies (when not doing anything)
+- <DOWN ARROW>: Climb down ladders/crouch/sky attack if falling in the air (pretty effective attack)
+- <+>: Increase the contrast
+- <->: Decrease the contrast
+- <F3>: Immediately pauses and exits the game - creates a copy of your battle inside your profile - this key is only allowed for Arena Mode, other pauses consist of <ON>
+- <ESC>: Exit the battle (not allowed in a tournament battle)
+- <ON>: Pause the game (turns off the calculator screen, pauses the game) - useful for any mode
 
 NOTE: when you face one direction but then turn the other way and hold down that key, you will
 run instead of walk. Then, if you stop and restart the same way, you will walk.
@@ -129,17 +127,17 @@ see exactly why)
 Send to your calculator: (check to make sure that the right files are sent, there are different 
 folders to make sure different calc models run at good speeds)
 
-twilight.89z (ASM) - 1007 oncalc bytes
-twippg.89y (ppg) - 31034 oncalc bytes
-tl_char1.89y (data) - 61005 oncalc bytes
-tl_char2.89y (data) - 54933 oncalc bytes
-tl_char3.89y (data) - 50793 oncalc bytes
-tl_extra.89y (data) - 29035 oncalc bytes
-tl_stage.89y (data) - 45503 oncalc bytes
+- twilight.89z (ASM) - 1007 oncalc bytes
+- twippg.89y (ppg) - 31034 oncalc bytes
+- tl_char1.89y (data) - 61005 oncalc bytes
+- tl_char2.89y (data) - 54933 oncalc bytes
+- tl_char3.89y (data) - 50793 oncalc bytes
+- tl_extra.89y (data) - 29035 oncalc bytes
+- tl_stage.89y (data) - 45503 oncalc bytes
 
 Other files created during the game's residence (no sending or manual creating necessary):
-PROFILES folder
-any user profiles (user) - 1159 bytes per profile (maximum profile amount is 5)
+- PROFILES folder
+- Any user profiles (user) - 1159 bytes per profile (maximum profile amount is 5)
 
 NOTE: I recommend you leave all of these files archived at all times so they will never be 
 erased if you experience any sort of crash! (Do you see what I mean by archive-intensive ;-) )
@@ -177,14 +175,14 @@ can be tough, especially at higher difficulty. You are allowed one continue per 
 and this will divide the total score the user has by two. You will be redirected to the same level,
 but with a different set of enemies or enemy. Story Mode also features certain point categories:
 
-+2000         per kill
--800          per time slain
-+1000         if player grabs and throws enemy
-+NUMBER       for completion of Race to the Finish!
-+4000         if your HP is under 10 at the end of the stage
-+20000-time   a time bonus for completing battles
-+20000        for killing the boss at the end
-+50000        completing story mode at all (with or without a continue)
+- +2000         per kill
+- -800          per time slain
+- +1000         if player grabs and throws enemy
+- +NUMBER       for completion of Race to the Finish!
+- +4000         if your HP is under 10 at the end of the stage
+- +20000-time   a time bonus for completing battles
+- +20000        for killing the boss at the end
+- +50000        completing story mode at all (with or without a continue)
 
 <h4>Episode Mode</h4>
 
@@ -229,11 +227,9 @@ to add to the record and/or unlock some parts of the game.
 
 <h2>Options Menu and Settings</h2>
 
-Settings: Adjust game settings
-Profiles: View the current profile and your accomplishments
-Credits: View the credits screen
-
-Settings: some settings affect only Arena Mode fights
+- Settings: Adjust game settings
+- Profiles: View the current profile and your accomplishments
+- Credits: View the credits screen
 
 <h3>Crowd Pressure</h3>
 
@@ -351,16 +347,16 @@ everything on their stats and your skill..., not just on their size. In fact, wi
 collisions with players, there is a "center of gravity" where collisions affect Mario in the same
 way they affect Bowser such as falling, moving, etc.
 
-Bowser
-Captain Falcon
-Fox
-Kirby
-Link
-Mario
-Peach
-Samus
-Yoshi
-Zelda
+- Bowser
+- Captain Falcon
+- Fox
+- Kirby
+- Link
+- Mario
+- Peach
+- Samus
+- Yoshi
+- Zelda
 
 The other 14 are for you to unlock and use later!
 
@@ -469,15 +465,15 @@ during development of the game.
 
 <h3>Special Thanks (in alphabetical order)</h3>
 
-Ben Cherry - emails for certain features of my program, such as better exiting methods and animation
-Lionel Debroux - maintainer of extgraph, and amazing optimizer who helped shave off tons of kilobytes
-Martial Demolins - helped to save Lionel countless hours when debugging to help me optimize a lot
-Kevin Kofler - current maintainer of fantastic TIGCC IDE and TiEmu, for shorter testing times
-David Randall - help at TI-Freakware with the terrain engine, profile stuff, and motivation
-Samuel Stearley - help at the TICT board with the character data files and other annoying bugs
-Julien Richard-Foy - author of the fantastic TileMap engine
-MathStuf - giving me a lot of help with the vat.h functions and data file saving/loading
-Lachprog - helping me a lot with compression techniques, especially RLE
+- Ben Cherry - emails for certain features of my program, such as better exiting methods and animation
+- Lionel Debroux - maintainer of extgraph, and amazing optimizer who helped shave off tons of kilobytes
+- Martial Demolins - helped to save Lionel countless hours when debugging to help me optimize a lot
+- Kevin Kofler - current maintainer of fantastic TIGCC IDE and TiEmu, for shorter testing times
+- David Randall - help at TI-Freakware with the terrain engine, profile stuff, and motivation
+- Samuel Stearley - help at the TICT board with the character data files and other annoying bugs
+- Julien Richard-Foy - author of the fantastic TileMap engine
+- MathStuf - giving me a lot of help with the vat.h functions and data file saving/loading
+- Lachprog - helping me a lot with compression techniques, especially RLE
 
 Thank you to all those who encouraged and helped me and to the authors and contributors of the
 TileMap engine and the extgraph library. Without all of them, none of this would be possible.
