@@ -1,6 +1,6 @@
 <h1>Twilight Legion</h1> 
-Arcade fighting game for TI-89 (Titanium) calculators, written in C, 68k Assembly
-Michael Hergenrader
+<p>Arcade fighting game for TI-89 (Titanium) calculators, written in C, 68k Assembly</p>
+<p>By Michael Hergenrader</p>
 
 <h2>Contents</h2>
 <ol>
