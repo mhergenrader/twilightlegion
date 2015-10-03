@@ -99,19 +99,19 @@ If not, you should see the profile loading screen, so play and enjoy!
 
 <h2>Controls (ingame)</h2>
 
-- <2nd>: Smash attacks/pick up items
-- <DIAMOND>: Special attacks for your player (stand still, fire projectile, or missile attack)
-- <SHIFT>: Make player jump (up to two jumps - second is UP)
-- <ALPHA+ARROW>: Dodge past enemy
-- <F1>: Grab your enemy (+arrow key while grabbing = throw enemy)
-- <L,R ARROWS>: Move the player/manuever attack direction/switch direction
-- <UP ARROW>: Climb ladders (there are ladders, believe it or not, but only one looks like one), double jump, taunt enemies (when not doing anything)
-- <DOWN ARROW>: Climb down ladders/crouch/sky attack if falling in the air (pretty effective attack)
-- <+>: Increase the contrast
-- <->: Decrease the contrast
-- <F3>: Immediately pauses and exits the game - creates a copy of your battle inside your profile - this key is only allowed for Arena Mode, other pauses consist of <ON>
-- <ESC>: Exit the battle (not allowed in a tournament battle)
-- <ON>: Pause the game (turns off the calculator screen, pauses the game) - useful for any mode
+- 2nd: Smash attacks/pick up items
+- DIAMOND: Special attacks for your player (stand still, fire projectile, or missile attack)
+- SHIFT: Make player jump (up to two jumps - second is UP)
+- ALPHA+ARROW: Dodge past enemy
+- F1: Grab your enemy (+arrow key while grabbing = throw enemy)
+- L,R ARROWS: Move the player/manuever attack direction/switch direction
+- UP ARROW: Climb ladders (there are ladders, believe it or not, but only one looks like one), double jump, taunt enemies (when not doing anything)
+- DOWN ARROW: Climb down ladders/crouch/sky attack if falling in the air (pretty effective attack)
+- +: Increase the contrast
+- -: Decrease the contrast
+- F3: Immediately pauses and exits the game - creates a copy of your battle inside your profile - this key is only allowed for Arena Mode, other pauses consist of <ON>
+- ESC: Exit the battle (not allowed in a tournament battle)
+- ON: Pause the game (turns off the calculator screen, pauses the game) - useful for any mode
 
 NOTE: when you face one direction but then turn the other way and hold down that key, you will
 run instead of walk. Then, if you stop and restart the same way, you will walk.
