@@ -4,24 +4,25 @@
 
 <h2>Contents</h2>
 <ol>
-<li>Introduction, Requirements, and Features</li>
+<li>Introduction and features</li>
+<li>Requirements to run, files to send, troubleshooting</li>
 <li>Controls (ingame)</li>
-<li>What to send to your calculator/list of files (why the game is archived memory-intensive)</li>
-<li>How to play/Modes of play/Points</li>
-<li>Profiles/Creating/Loading</li>
-<li>Options Menu and Settings</li>
+<li>How to play/Modes of play</li>
+<li>Profiles</li>
+<li>Game Settings</li>
 <li>Character Select Menu/Stage Select Menu/Team Select Screen/VS Screen</li>
 <li>Episode Mode Menu</li>
 <li>Starting Characters</li>
 <li>Starting Stages Descriptions</li>
-<li>License/How to report bugs/Other Languages</li>
+<li>License</li>
+<li>How to report bugs</li>
+<li>Support for other languages</li>
 <li>Game Credits</li>
-<li>Planned Features for later updates</li>
 </ol>
 
-<h2>Introduction, Requirements, and Features</h2>
+<h2>Introduction and Features</h2>
 
-Introduction:
+<h3>Introduction</h3>
 24 characters from across various games and platforms have been chosen to take part in a 
 tournament of the best for the Twilight Legion Championship. Fight your way through as you pick
 up new characters and stages as you put your strategy and coordination to the test! You may be
@@ -31,15 +32,74 @@ different modes and prove that you are the fighting champion! Then, prove you ar
 by defeating the pure evil of Master Hand! Last year's champ is out to defend his title as well,
 so you had better be ready for a scrap!
 
-<h3>Requirements to run</h3>
+<h3>Features</h3>
+
+- 24 unlockable characters, each with different heights and widths
+- 26 unlockable various stages
+- 10 different invitational tournaments to unlock, or create your own custom tournaments
+- 31 complete unlockable episodes, with increasing difficulties (just try and beat #31)
+- Familiar boss battles from Super Smash Bros. :-) (*spoiler at very bottom of file)
+- Timed matches anywhere from 1 to 90 minutes in duration (90 for the hardcore gamers ;-) )
+- Stock matches anywhere from 1 to 5 lives
+- Sudden death for timed matches if the game deems necessary
+- Up to 5 different saved user profiles to load and view
+- Save your arena battle and tournament and settings into your profile quickly - allows 1 of each per profile!
+- Arena mode: freestyle fight based on the settings, choose anywhere from 2-4 players to fight
+- Story mode: 10 consecutive, always different, random stages, with 2 Race to the finish minigames, a metal character fight, and, of course, the final battle (boss battle)
+- Complete trophy gallery with 5 pages to view 8 trophies
+- "Teacher" key to save your own custom battles and then instantly reload them on startup! (press ON)
+- 4 different AI difficulties (Classic = easiest, Admiral, Premiere, Elite = hardest)
+- Crowd pressure enablement - fight like in a stadium with the crowd in the back with/against you
+- 1 complete moving level enabled to put a twist into your battles (hopefully, more to come later)
+- 26 different items that fall from the sky, including boosts, metal, invisibility, and projectiles
+- 16 different types of terrain blocks inside levels (hopefully, more to come, as some were removed)
+- Works on hardware versions 1, 2, and 3 - no patch required
+- Full scrolling credits screen
+
+<h3>Planned features for later</h3>
+
+- TI-92+ and Voyage 200 porting capabilities
+- Finish link play between calcs (I want to include the regular I/O port, but I also want to test out Kevin Kofler's USB methods to use them as well)
+- Other different kinds of attacks than the ones here
+- A bonus mode besides the ones here, like an All-Star mode like in SSBM
+
+NOTE: This game will not include a level editor, as the sprites are not generic enough, and I
+would like to make different projects after I add the updates above.
+
+<h2>Requirements to run</h2>
+
+<h3>System Requirements</h3>
+
+Either a physical calculator or emulator will suffice.
 
 <ul>
-<li>Calculator: TI-89 or TI-89 Titanium (92+ and Voyage 200 porting hopefully to come soon)</li>
+<li>Calculator: TI-89 or TI-89 Titanium</li>
 <li>Emulator: I prefer TiEmu, but it doesn't matter; NOTE: the game speed is much faster on these!</li>
 <li>Minimum AMS Version: 1.01 (this game is entirely _nostub; no custom OS required)</li>
 </ul>
 
-If you see any dialog screen accompanied by a message, such as the following, please follow these
+<h3>What to send to your calculator</h3>
+
+Send to your calculator the following (all these included files are archived by default):
+
+- twilight.89z (ASM) - 1007 oncalc bytes
+- twippg.89y (ppg) - 31034 oncalc bytes
+- tl_char1.89y (data) - 61005 oncalc bytes
+- tl_char2.89y (data) - 54933 oncalc bytes
+- tl_char3.89y (data) - 50793 oncalc bytes
+- tl_extra.89y (data) - 29035 oncalc bytes
+- tl_stage.89y (data) - 45503 oncalc bytes
+
+Other files created during the game's residence (no sending or manual creating necessary):
+- PROFILES folder
+- Any user profiles (user) - 1159 bytes per profile (maximum profile amount is 5)
+
+NOTE: I recommend you leave all of these files archived at all times so they will never be 
+erased if you experience any sort of crash! (Do you see what I mean by archive-intensive ;-) )
+
+<h3>Troubleshooting on the calculator</h3>
+
+If you see any dialog screen accompanied by an error message, such as the following, please follow these
 instructions:
 
 *** ERROR: Unrecognized User! ***
@@ -68,34 +128,10 @@ Send tl_extra.data to your calculator.
 Try to free up your RAM usage as much as possible, you may have to remove some files to make room.
 If you have a lot of FlashApps, those take up the most space.
 
-If not, you should see the profile loading screen, so play and enjoy!
+If you find an error that is not included here, please report it to me (contact info below)! I'll
+look into it as soon as possible.
 
-<h3>Features</h3>
-- 24 unlockable characters, each with different heights and widths
-- 26 unlockable various stages
-- 10 different invitational tournaments to unlock, or create your own custom tournaments
-- 31 complete unlockable episodes, with increasing difficulties (just try and beat #31)
-- Familiar boss battles from Super Smash Bros. :-) (*spoiler at very bottom of file)
-- Timed matches anywhere from 1 to 90 minutes in duration (90 for the hardcore gamers ;-) )
-- Stock matches anywhere from 1 to 5 lives
-- Sudden death for timed matches if the game deems necessary
-- Up to 5 different saved user profiles to load and view
-- Save your arena battle and tournament and settings into your profile quickly - allows 1 of each per profile!
-- Arena mode: freestyle fight based on the settings, choose anywhere from 2-4 players to fight
-- Story mode: 10 consecutive, always different, random stages, with 2 Race to the finish minigames, a metal character fight, and, of course, the final battle (boss battle)
-- Complete trophy gallery with 5 pages to view 8 trophies
-- "Teacher" key to save your own custom battles and then instantly reload them on startup! (press ON)
-- 4 different AI difficulties (Classic = easiest, Admiral, Premiere, Elite = hardest)
-- Crowd pressure enablement - fight like in a stadium with the crowd in the back with/against you
-- 1 complete moving level enabled to put a twist into your battles (hopefully, more to come later)
-- 26 different items that fall from the sky, including boosts, metal, invisibility, and projectiles
-- 16 different types of terrain blocks inside levels (hopefully, more to come, as some were removed)
-- Works on hardware versions 1, 2, and 3 - no patch required
-- Full scrolling credits screen
-
-<h3>Planned for later</h3>
-- Finishing linked battles (still in testing)
-- TI-92(+)/Voyage 200 compatibility
+If no errors occur, you should see the profile loading screen on the first run, so play and enjoy!
 
 <h2>Controls (ingame)</h2>
 
@@ -122,27 +158,7 @@ everything based on the calculator model, but the + and - keys will still adjust
 NOTE: a user is not allowed to alter the contrast in episode mode (at certain episodes, you will
 see exactly why)
 
-<h2>What to send to your calculator/list of files (why the game is archived memory-intensive)</h2>
-
-Send to your calculator: (check to make sure that the right files are sent, there are different 
-folders to make sure different calc models run at good speeds)
-
-- twilight.89z (ASM) - 1007 oncalc bytes
-- twippg.89y (ppg) - 31034 oncalc bytes
-- tl_char1.89y (data) - 61005 oncalc bytes
-- tl_char2.89y (data) - 54933 oncalc bytes
-- tl_char3.89y (data) - 50793 oncalc bytes
-- tl_extra.89y (data) - 29035 oncalc bytes
-- tl_stage.89y (data) - 45503 oncalc bytes
-
-Other files created during the game's residence (no sending or manual creating necessary):
-- PROFILES folder
-- Any user profiles (user) - 1159 bytes per profile (maximum profile amount is 5)
-
-NOTE: I recommend you leave all of these files archived at all times so they will never be 
-erased if you experience any sort of crash! (Do you see what I mean by archive-intensive ;-) )
-
-<h2>How to play/Modes of play/Points</h2>
+<h2>How to play/Modes of play</h2>
 
 <h3>How to Play</h3>
 
@@ -204,7 +220,7 @@ battle, it will go to the main menu and save the tournament, if you are not in t
 just skip the AI battle if you do not wish to see it at all. Set the tournament settings in the
 tournament menu.
 
-<h2>Profiles/Creating/Loading</h2>
+<h2>Profiles</h2>
 
 The game has enough tolerance for up to 5 profiles. Profiles store all the player's data and the
 initials are drawn above their character during the game. It stores everything that a player has
@@ -225,7 +241,9 @@ Everytime a match occurs and is FINISHED, a win or loss will be updated to the p
 incomplete match will not be added to a profile, so you must actually play all the matches
 to add to the record and/or unlock some parts of the game.
 
-<h2>Options Menu and Settings</h2>
+<h2>Game Settings</h2>
+
+<h3>Options menu</h3>
 
 - Settings: Adjust game settings
 - Profiles: View the current profile and your accomplishments
@@ -424,9 +442,7 @@ smiling cloud blocks.
 
 The other 12 stages are left for you to unlock and discover (and they are in the guide).
 
-<h2>License/How to report bugs/Other Languages</h2>
-
-<h3>License</h3>
+<h2>License</h2>
 
 I release the source code with this game with the hope that it may teach others the way that
 creating this game over five+ years has taught me. If you use code from my game in your own,
@@ -437,7 +453,7 @@ Hergenrader, as the game's sole creator, will not ever charge for access to it.
 
 Twilight Legion is Copyright (c) 2005 - 2010 Michael Hergenrader.
 
-<h3>How to report bugs</h3>
+<h2>How to report bugs</h2>
 
 I am confident that I have found the bugs in the program, so there's no need to worry, but if 
 for some reason, you find a bug, please contact me immediately so I can fix it.
@@ -447,7 +463,7 @@ else relevant to me or the game, please also contact me if you wish.
 
 Email: mike.hergenrader@gmail.com
 
-<h3>Other Languages</h3>
+<h2>Support for other languages</h2>
 
 If you would like something of the game to be in another language, please also ask me. I am 
 fluent in English and Spanish, learning Mandarin, and I will try to acquire help for others
@@ -481,19 +497,6 @@ TileMap engine and the extgraph library. Without all of them, none of this would
 If for some reason, I have not included you and you assisted in the development of the project,
 please contact me ASAP so I can.
 
-<h2>Planned features for later updates (if space and time allow)</h2>
-
-* TI-92+ and Voyage 200 porting capabilities
-* Link play between calcs (I want to include the regular I/O port, but I also want to test out 
-  Kevin Kofler's USB methods to use them as well)
-* other different kinds of attacks than the ones here
-* a bonus mode besides the ones here, like an All-Star mode like in SSBM
-* perhaps a sequel? not really likely unless people want one - email me if you support the idea
-  because at this point, I'm not really sure... I am continuing with another project after this
-  one for which I have already developed some of the engine
-
-NOTE: This game will not include a level editor, as the sprites are not generic enough, and I
-would like to make different projects after I add the updates above.
 
 
 Enjoy the game and thank you for downloading!
