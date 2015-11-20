@@ -34,10 +34,10 @@ so you had better be ready for a scrap!
 
 <h3>Features</h3>
 
-- 24 unlockable characters, each with different heights and widths
-- 26 unlockable various stages
-- 10 different invitational tournaments to unlock, or create your own custom tournaments
-- 31 complete unlockable episodes, with increasing difficulties (just try and beat #31)
+- 24 characters, each with different heights and widths
+- 26 various stages
+- 10 different invitational tournaments included, or create your own custom tournaments
+- 31 complete episodes, with increasing difficulties (just try and beat #31)
 - Familiar boss battles from Super Smash Bros. :-) (*spoiler at very bottom of file)
 - Timed matches anywhere from 1 to 90 minutes in duration (90 for the hardcore gamers ;-) )
 - Stock matches anywhere from 1 to 5 lives
@@ -62,6 +62,7 @@ so you had better be ready for a scrap!
 - Finish link play between calcs (I want to include the regular I/O port, but I also want to test out Kevin Kofler's USB methods to use them as well)
 - Other different kinds of attacks than the ones here
 - A bonus mode besides the ones here, like an All-Star mode like in SSBM
+- Other new characters/levels/episodes to unlock
 
 NOTE: This game will not include a level editor, as the sprites are not generic enough, and I
 would like to make different projects after I add the updates above.
@@ -186,8 +187,7 @@ feeling like smashing baddies.
 Story mode is just like Super Smash Bros. Melee Classic Mode, a string of 10 consecutive
 fights, all at the same difficulty set by the user before it starts (in settings). In the mode,
 there are two Race to the Finish! minigames, a metal character duel level, and a final boss level.
-Playing this mode can unlock some of the locked stuff in the game, as fighting consecutive matches
-can be tough, especially at higher difficulty. You are allowed one continue per mode initiated,
+Fighting consecutive matches can be tough, especially at higher difficulty! You are allowed one continue per mode initiated,
 and this will divide the total score the user has by two. You will be redirected to the same level,
 but with a different set of enemies or enemy. Story Mode also features certain point categories:
 
@@ -205,15 +205,14 @@ but with a different set of enemies or enemy. Story Mode also features certain p
 Just like Event mode from Super Smash Bros. Melee! There are 31 total episodes, progressing to
 harder difficulties. Some episodes have different crazy themes and some are just hypothetical
 (well, actually real) fights between sets of characters. The last one is ESPECIALLY tough to beat,
-and Episode 30 is right under it. Episodes are just fights with set themes. To unlock new ones,
-unlock some previous ones, and perhaps do a few other unlocking tasks. At the end, if you accomplished
+and Episode 30 is right under it. Episodes are just fights with set themes. At the end, if you accomplished
 the goal, you will see "Success", but if you don't or die, you will see "Failure".
 
 <h4>Tournament Mode</h4>
 
 Host a tournament with a bracket of 16 players where 2 players fight each other, complete with an
 auto-scrolling bracket, transition effects, and ability to save the tournaments. Create your own
-or start one of 10 unlockable invitationals included with the game. A player can either watch the AI
+or start one of 10 invitationals included with the game. A player can either watch the AI
 fight to see who he/she will fight or skip to the next one. When the preparation screen appears to
 initiate a battle, press 2nd to play your battle/watch an AI battle or press ESC - if you are in the
 battle, it will go to the main menu and save the tournament, if you are not in the battle, it will
@@ -223,8 +222,8 @@ tournament menu.
 <h2>Profiles</h2>
 
 The game has enough tolerance for up to 5 profiles. Profiles store all the player's data and the
-initials are drawn above their character during the game. It stores everything that a player has
-unlocked, a quick-save battle if the user hits a teacher key (F3) and a saved tournament a user
+initials are drawn above their character during the game. It stores everything that a player has, 
+a quick-save battle if the user hits a teacher key (F3) and a saved tournament a user
 has started or created.
 
 On the first run of the program, a dialog box will popup if either there exists no profiles
@@ -239,7 +238,7 @@ leaving these archived at all times to prevent losing any data.
 
 Everytime a match occurs and is FINISHED, a win or loss will be updated to the profile. An 
 incomplete match will not be added to a profile, so you must actually play all the matches
-to add to the record and/or unlock some parts of the game.
+to add to the record.
 
 <h2>Game Settings</h2>
 
@@ -273,8 +272,7 @@ AFFECTS MODES: ARENA, TOURNAMENT (non-invitational)
 
 <h3>Match Length</h3>
 
-This field is for timed matches only. The time can be set from 1 to 90 minutes. HINT: some
-parts of the game can be unlocked for longer matches. 90 minute straight matches are pretty brutal
+This field is for timed matches only. The time can be set from 1 to 90 minutes. 90 minute straight matches are pretty brutal
 (I've tested with one), so make sure you are ready and have time to do it if you are ready (they
 are certainly not for beginners if you want to win). Otherwise, you can break down the match by
 pressing [ON] to pause, or exit with F3 to save it for later.
@@ -311,7 +309,7 @@ AFFECTS MODES: ALL
 <h3>Profiles</h3>
 
 At any time outside a match, a user can view certain stats in their profile, such as wins, losses,
-and how many objects/characters they have unlocked.
+and tournament record.
 
 <h3>Credits</h3>
 
@@ -336,9 +334,6 @@ Press 2nd to confirm.
 Use the arrow keys to move the cursor around the menu to highlight a stage. The name will be drawn
 in the middle. Hit <2nd> to select the highlighted stage, or hit <DIAMOND> to select a random one.
 
-NOTE: if any of the pictures have a question mark on them, they are locked and not selectable yet
-until you unlock them.
-
 <h3>VS Screen</h3>
 All four characters are drawn with their respective names at the bottom of the screen. The numbers
 on the side of the characters represent their TEAM number. If you or any character(s) has the 
@@ -346,8 +341,7 @@ same number, you are on the same team, so try to work WITH them.
 
 <h2>Episode Mode Menu</h2>
 
-There are 31 episodes. To access the next one or the next set, you must complete the previous ones
-and sometimes you must also complete other tasks to unlock them.
+There are 31 episodes - all are currently available.
 
 Just use the up and down arrow keys and hit <2nd> to access the episode. There are various ones
 to play, you will have to see more to know more. In the guide, all 31 episodes are highlighted.
@@ -376,7 +370,7 @@ way they affect Bowser such as falling, moving, etc.
 - Yoshi
 - Zelda
 
-The other 14 are for you to unlock and use later!
+The other 14 are for you to explore!
 
 <h2>Starting Stages Descriptions (14)</h2>
 
@@ -440,7 +434,7 @@ to hang on before you fall off.
 This stage, I tried to make it look a lot like the original from SSBM, hence the hills and the 
 smiling cloud blocks.
 
-The other 12 stages are left for you to unlock and discover (and they are in the guide).
+The other 12 stages are left for you to explore!
 
 <h2>License</h2>
 
